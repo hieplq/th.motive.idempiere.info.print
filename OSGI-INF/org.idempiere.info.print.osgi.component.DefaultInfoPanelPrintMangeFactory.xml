@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="org.idempiere.info.print.osgi.component.DefaultInfoPanelPrintMangeFactory">
+   <property name="service.ranking" type="Integer" value="2"/>
+   <service>
+      <provide interface="org.adempiere.webui.factory.IInfoButtonSettingFactory"/>
+      <provide interface="org.adempiere.webui.factory.IInfoPrintHandleFactory"/>
+   </service>
+   <implementation class="org.idempiere.info.print.osgi.component.DefaultInfoPanelPrintMangeFactory"/>
+</scr:component>
