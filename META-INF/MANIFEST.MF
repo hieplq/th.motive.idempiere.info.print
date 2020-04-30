@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Default Info Print
 Bundle-SymbolicName: th.motive.idempiere.info.print
-Bundle-Version: 7.1.0.qualifier
+Bundle-Version: 1.0.0.qualifier
 Automatic-Module-Name: org.idempiere.info.print
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Import-Package: org.adempiere.plugin.utils,

@@ -4,8 +4,10 @@
 	<groupId>org.idempiere</groupId>
 	<artifactId>org.idempiere.parent</artifactId>
 	<version>7.1.0-SNAPSHOT</version>
-	<relativePath>../../org.idempiere.parent/pom.xml</relativePath>
+	<relativePath>../../idempiere/org.idempiere.parent/pom.xml</relativePath>
   </parent>
+  <groupId>th.motive.rubber</groupId>
+  <version>1.0.0-SNAPSHOT</version>
   <artifactId>th.motive.idempiere.info.print</artifactId>
   <packaging>eclipse-plugin</packaging>
 </project>
