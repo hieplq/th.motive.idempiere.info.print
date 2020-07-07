@@ -4,7 +4,6 @@ Bundle-Name: Default Info Print
 Bundle-SymbolicName: th.motive.idempiere.info.print
 Bundle-Version: 1.0.0.qualifier
 Automatic-Module-Name: org.idempiere.info.print
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Import-Package: org.adempiere.plugin.utils,
  org.adempiere.webui.apps,
  org.adempiere.webui.component,
@@ -23,3 +22,4 @@ Bundle-ActivationPolicy: lazy
 Require-Bundle: zk;bundle-version="8.6.0",
  zul;bundle-version="8.6.0"
 Bundle-ClassPath: .
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=11))"
