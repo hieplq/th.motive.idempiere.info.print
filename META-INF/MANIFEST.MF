@@ -17,7 +17,6 @@ Import-Package: org.adempiere.plugin.utils,
  org.compiere.util,
  org.osgi.service.component.annotations;version="1.3.0";resolution:=optional
 Service-Component: OSGI-INF/org.idempiere.info.print.osgi.component.DefaultInfoPanelPrintMangeFactory.xml
-Bundle-Activator: org.adempiere.plugin.utils.Incremental2PackActivator
 Bundle-ActivationPolicy: lazy
 Require-Bundle: zk;bundle-version="8.6.0",
  zul;bundle-version="8.6.0"
